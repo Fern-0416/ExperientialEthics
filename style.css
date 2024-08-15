@@ -20,6 +20,7 @@ body {
     opacity: 0.6;
 }
 
+
 #top {
 
     background-color: rgb(19, 51, 99);
@@ -242,6 +243,7 @@ body {
     #top {
         font-size: 0.5em;
         padding: 5px 0 10px;
+        
     }
     #TOSImg {
         width: 175px;
