@@ -5,12 +5,13 @@ const grey = document.querySelector("#grey");
 const scrollingElement = (document.scrollingElement || document.body);
 let scrolling =false;
 
-button.addEventListener('mousedown', () => {
-    tos.style.display = "block";
-    grey.style.display = "block";
+if(button != null) {button.addEventListener('mousedown', () => {
+        tos.style.display = "block";
+        grey.style.display = "block";
 
-    scrolling = true;
-})
+        scrolling = true;
+    })
+}
 
 setInterval(() => {
     if(scrolling) scrollingElement.scrollTop -= 15;
@@ -21,18 +22,21 @@ setInterval(() => {
 
 const x = document.querySelector('#x');
 
-x.addEventListener('mousedown', () => {
-    tos.style.display = "none";
-    grey.style.display = "none";
-})
-
+if (x != null) {
+        x.addEventListener('mousedown', () => {
+        tos.style.display = "none";
+        grey.style.display = "none";
+    })
+}
 
 let sure = 0;
 const disagree = document.querySelector("#disagree");
 
-disagree.addEventListener('mousedown', () => {
-    if(sure< 5) sure++;
-})
+if (disagree != null) {
+    disagree.addEventListener('mousedown', () => {
+        if(sure< 5) sure++;
+    })
+}
 
 var linkB = true;
 setInterval(() => {

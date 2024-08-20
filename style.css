@@ -206,7 +206,7 @@ body {
     border: solid 4px rgb(8, 4, 39);
     border-radius: 25px;
     float: right;
-    margin: 20px ;
+    margin: 30px 20px 5px;
 }
 #videotext {
     margin: 10px 10px;
@@ -222,6 +222,19 @@ body {
     margin: 10px 0;
     min-height: 240;
 }
+#blurb2_2 {
+    margin: 20px;
+}
+#continue {
+    color: white;
+    text-decoration: none;
+    background-color: rgb(29, 29, 98);
+    padding: 10px;
+    font-size: 1.5em;
+    border: 3px solid rgb(14, 14, 60);
+    border-radius: 20px;
+    margin-left: 30%;
+}
 
 @media(max-width: 600px) {
 
@@ -236,6 +249,10 @@ body {
     #internetP {
         width: 200px;
         margin: 10px 10px 0;
+    }
+    #basicInfo {
+        font-size: 0.9em;
+        line-height: 1.5;
     }
 
 
@@ -267,5 +284,9 @@ body {
     #videotext {
         min-height: 0;
         margin: 0px 15px;
+    }
+    .agreeing {
+        margin: 10px;
+        
     }
 }
