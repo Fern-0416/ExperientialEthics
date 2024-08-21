@@ -226,14 +226,50 @@ body {
     margin: 20px;
 }
 #continue {
-    color: white;
-    text-decoration: none;
+    width: min-content;
     background-color: rgb(29, 29, 98);
-    padding: 10px;
-    font-size: 1.5em;
     border: 3px solid rgb(14, 14, 60);
     border-radius: 20px;
-    margin-left: 30%;
+    margin: 20px auto 10px auto;
+    padding: 10px 0;
+    a {
+         font-size: 1.5em;
+        padding: 10px;
+        color: white;
+        text-decoration: none;
+        margin: 10px 10px;
+    }
+}
+#continue:hover { background-color: rgb(38, 38, 132);}
+#continue:active { background-color: rgb(53, 53, 171);}
+
+
+#Disney {
+    margin: 20px 0;
+    background-color: rgb(19, 19, 70);
+    padding: 10px;
+    border-top: 10px double rgb(57, 57, 127);
+    border-bottom: 10px double rgb(57, 57, 127);
+    a {color: rgb(86, 142, 233);}
+
+}
+
+#DisneyImg1 {
+    width: 250px;
+    border: rgb(10, 10, 51) 3px solid;
+    float: left;
+    border-radius: 25px;
+    margin: 10px 10px 5px 3%;
+
+}
+#DisneyImg2 {
+    width: 200px;
+    border: rgb(10, 10, 51) 3px solid;
+    border-radius: 25px;
+    float: right;
+    margin: 10px 2% 10px 5px ;
+
+
 }
 
 @media(max-width: 600px) {
