@@ -314,6 +314,16 @@ body {
     margin: 15px;
     font-size: 1.2em;
 }
+#final {
+    background-color: rgb(45, 51, 116);
+    padding: 10px 50px;
+    font-size: 2em;
+    line-height: 1.2em;
+    text-align: center;
+    border-top: double 7px rgb(16, 16, 103);
+    border-bottom: double 7px rgb(16, 16, 103);
+
+}
 
 @media(max-width: 600px) {
 
