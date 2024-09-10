@@ -16,6 +16,7 @@ body {
 #backP1  {
     position: absolute;
     z-index: -1;
+    width: 100%;
     top: 0;
     opacity: 0.6;
 }
@@ -206,7 +207,7 @@ body {
     border: solid 4px rgb(8, 4, 39);
     border-radius: 25px;
     float: right;
-    margin: 30px 20px 5px;
+    margin: 20px 20px 5px;;
 }
 #videotext {
     margin: 10px 10px;
@@ -285,11 +286,17 @@ body {
 }
 
 #qr {
-    width: 40%;
+    width: 35%;
+    max-width: 400px;
+    max-height: 400px;
     box-sizing: border-box;
-    margin: 10px 30% 10px 30%;
-    border: black 5px solid;
-    border-radius: 15px;
+    margin: auto auto;
+    img {
+        width: 100%;
+        border: 5px black solid;
+        border-radius: 10px;
+
+    }
 }
 
 #miniL {
@@ -352,7 +359,9 @@ body {
     }
 
 
-
+    #qr {
+        display: none;
+    }
     #top {
         font-size: 0.5em;
         padding: 5px 0 10px;
@@ -373,8 +382,8 @@ body {
     }
     #video {
         float: none;
-        width: 375px;
-        height: 215px;
+        width: 320;
+        height: 185;
         align-items: center;
     }
     #videotext {
