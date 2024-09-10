@@ -284,6 +284,13 @@ body {
     padding: 10px 20px;
 }
 
+#qr {
+    width: 40%;
+    box-sizing: border-box;
+    margin: 10px 30% 10px 30%;
+    border: black 5px solid;
+    border-radius: 15px;
+}
 
 #miniL {
 
